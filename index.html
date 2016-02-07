@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <title>
+    Freaky Dot Patterns
+  </title>
+  <link href="/stylesheets/normalize-6197e73d.css" rel="stylesheet" /><link href="/stylesheets/all-e9ad3f3d.css" rel="stylesheet" />
+</head>
+
+<body class="index">
+  <section>
+    <div>
+        <h1>Freaky Dot Patterns</h1>
+        <p>Inspired by this <a href="https://www.youtube.com/watch?v=QAja2jp1VjE" target="_blank">video</a> from Numberphile.</p>
+        <hr/>
+        <h2>Select pattern</h2>
+        <select id="type" class="values">
+            <optgroup>
+                <option value="random2">Random</option>
+                <option value="random1">Random 2</option>
+                <option value="triangle">Triangles</option>
+                <option value="square1">Squares</option>
+                <option value="circle">Circles</option>
+            </optgroup>
+        </select>
+        <h2>Enter size</h2>
+        <input id="canvas-size" type="number" min="3" max="100" value="6" step="1">
+        <button type="submit" id="draw">Create</button>
+        <p>After the pattern is created, use keys up/down to slowly increment the fields below</p>
+        <hr/>
+        <h2>Rotate</h2>
+        <input id="range" type="number" min="0" max="180" value="00" step="0.2" class="values">
+        <h2>Move X</h2>
+        <input id="x-value" type="number" min="-800" max="800" value="0" step="1" class="values">
+        <h2>Move Y</h2>
+        <input id="y-value" type="number" min="-800" max="800" value="0" step="1" class="values">
+        <h2>Scale</h2>
+        <input id="size-value" type="number" min="-10" max="10" value="1" step="0.01" class="values">
+        <p><a href="https://github.com/dgmaia/moire-patterns" target="_blank">GitHub</a></p>
+    </div>
+</section>
+<section>
+    <canvas id="canvas"></canvas>
+    <canvas id="canvas2"></canvas>
+</section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="/javascripts/all-00e750d5.js"></script>
+</body>
+
+</html>
