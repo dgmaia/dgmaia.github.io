@@ -14,14 +14,18 @@
     <link rel="alternate" href="http://blog.url.com/2016/05/04/pursuit.html"/>
     <id>http://blog.url.com/2016/05/04/pursuit.html</id>
     <published>2016-05-04T19:21:00+12:00</published>
-    <updated>2016-05-04T20:58:03+12:00</updated>
+    <updated>2016-05-05T07:40:09+12:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;I doodle a lot at work, It help me to think about stuff I'm working on. Is a way for me to stop and put some ideas together, having a little break but not completely putting the problem apart.
+    <content type="html">&lt;div class="hide"&gt;
+  &lt;img src="/images/pursuit-pattern.png" alt="Javascript Pursuit Pattern" /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I doodle a lot at work, It help me to think about stuff I'm working on. Is a way for me to stop and put some ideas together, having a little break but not completely putting the problem apart.
 &lt;/p&gt;
 
-&lt;p&gt;And After I saw this &lt;a href="#video"&gt;video&lt;/a&gt; … I just keep doodling this pattern.&lt;/p&gt;
+&lt;p&gt;And after I saw this &lt;a href="#video"&gt;video&lt;/a&gt; … I just keep doing this pattern.&lt;/p&gt;
 
 &lt;div class="iframe"&gt;
   &lt;iframe src="https://www.youtube.com/embed/vln7rc5WYWM" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
@@ -30,8 +34,6 @@
 &lt;p&gt;Not having good drawing skills and being perfectionist is not a nice combination, so I decided to draw that with Javascript. :D&lt;/p&gt;
 
 &lt;p&gt;Have fun: &lt;a href="../../../pursuit-curve"&gt;Pursuit Curve&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Javascript Pursuit Pattern" src="/images/pursuit-pattern.png" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
