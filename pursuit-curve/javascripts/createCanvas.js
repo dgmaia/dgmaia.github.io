@@ -1,0 +1,1 @@
+createCanvas=function(a,e){var t=pixelRatio(),n=createHiDPICanvas(a,e,t);$(".where-canvas").append(n),$(n).attr("id","canvas");var r=document.getElementById("canvas").getContext("2d");return r};
