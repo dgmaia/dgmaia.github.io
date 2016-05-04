@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/05/04/pursuit.html"/>
     <id>http://blog.url.com/2016/05/04/pursuit.html</id>
     <published>2016-05-04T19:21:00+12:00</published>
-    <updated>2016-05-04T20:34:50+12:00</updated>
+    <updated>2016-05-04T20:46:16+12:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;Not having good drawing skills and being perfectionist is not a nice combination, so I decided to draw that with Javascript. :D&lt;/p&gt;
 
-&lt;p&gt;Have fun: &lt;a href="pursuit-curve"&gt;Pursuit Curve&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Have fun: &lt;a href="../../../pursuit-curve"&gt;Pursuit Curve&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Javascript Pursuit Pattern" src="/images/pursuit-pattern.png" /&gt;&lt;/p&gt;
 </content>
