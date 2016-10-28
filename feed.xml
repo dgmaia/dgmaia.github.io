@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2016/10/28/svg.html"/>
     <id>http://blog.url.com/2016/10/28/svg.html</id>
     <published>2016-10-28T22:09:00+13:00</published>
-    <updated>2016-10-28T23:31:54+13:00</updated>
+    <updated>2016-10-28T23:34:49+13:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -26,6 +26,8 @@
 SVG animations are cool and I should play more with it.&lt;/p&gt;
 
 &lt;p&gt;(READMORE)&lt;/p&gt;
+
+&lt;p&gt;&lt;a class="play" href="javascript:void(0);"&gt;Play&lt;/a&gt;&lt;/p&gt;
 
 &lt;svg class="svg-animated" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1024 1024" xml:space="preserve"&gt;
 
@@ -69,8 +71,6 @@ SVG animations are cool and I should play more with it.&lt;/p&gt;
 	&lt;path class="square-3" d="M512,477.7l34.3,34.3L512,546.3L477.7,512L512,477.7 M512,470.7L470.7,512l41.3,41.3l41.3-41.3L512,470.7L512,470.7z" /&gt;
 
 &lt;/svg&gt;
-
-&lt;p&gt;&lt;a class="play" href="javascript:void(0);"&gt;Play&lt;/a&gt;&lt;/p&gt;
 
 &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"&gt;&lt;/script&gt;
 
