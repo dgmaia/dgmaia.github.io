@@ -5,10 +5,53 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-11-11T07:58:00+13:00</updated>
+  <updated>2017-02-02T20:35:00+13:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Aoteroa Quakes</title>
+    <link rel="alternate" href="http://blog.url.com/2017/02/02/aoteroa-quakes.html"/>
+    <id>http://blog.url.com/2017/02/02/aoteroa-quakes.html</id>
+    <published>2017-02-02T20:35:00+13:00</published>
+    <updated>2017-02-02T21:49:28+13:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="/2017/02/02/aoteroa-quakes.html"&gt;
+  &lt;img title="New Zealand Earthquakes App" src="/images/aoteroa-quakes.jpg" /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Earthquakes in New Zealand are common, but in November 2016 we had one that shook the whole country.&lt;/p&gt;
+
+&lt;p&gt;(READMORE)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.geonet.org.nz/"&gt;Geonet&lt;/a&gt; is our main source of information about what is going on underneath the earth.
+It's website is not that bad, it does the job, but to be honest, the mobile app is not great at all.&lt;/p&gt;
+
+&lt;p&gt;After last year's quakes, a friend of mine decided to create an new app using Geonet data.
+And I happily joined him to work on the designs.&lt;/p&gt;
+
+&lt;p&gt;It was a quick and fun job to do, trying to keep things as simple as possible.&lt;/p&gt;
+
+&lt;p&gt;Link to App Store coming soon.&lt;/p&gt;
+
+&lt;section class="gallery"&gt;
+  &lt;div class="img"&gt;
+    &lt;img title="New Zealand Earthquakes App" src="/images/aoteroa-quakes-intro.png" /&gt;
+  &lt;/div&gt;
+  &lt;div class="img"&gt;
+    &lt;img title="New Zealand Earthquakes App" src="/images/aoteroa-quakes-list.png" /&gt;
+  &lt;/div&gt;
+  &lt;div class="img"&gt;
+    &lt;img title="New Zealand Earthquakes App" src="/images/aoteroa-quakes-details.png" /&gt;
+  &lt;/div&gt;
+  &lt;div class="img"&gt;
+    &lt;img title="New Zealand Earthquakes App" src="/images/aoteroa-quakes-settings.png" /&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</content>
+  </entry>
   <entry>
     <title>Pencarrow Head Lighthouse</title>
     <link rel="alternate" href="http://blog.url.com/2016/11/10/pencarrow.html"/>
