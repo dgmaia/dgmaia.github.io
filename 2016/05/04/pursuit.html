@@ -10,6 +10,7 @@
 
   <link href="../../../stylesheets/site.css" rel="stylesheet" />
   <script src="../../../javascripts/all.js"></script>
+  <script src="../../../javascripts/smoothscroll.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter:700" rel="stylesheet">
@@ -43,11 +44,22 @@
 </a>  </h1>
 </header>
 
+<section class="intro">
+  <h2>Hi, I’m Diego Maia Evangelista</h2>
+  <p>
+    A Brazilian User Interface Designer and Frontend Developer.<br/>
+    Currently based in Wellington - NZ.
+  </p>
+</section>
+
       <nav class="navigation">
   <h2>Menu</h2>
   <ul class="main-menu">
     <li>
       <a href="/"><span>Home</span></a>
+    </li>
+    <li>
+      <a href="../../../contact.html"><span>Contact</span></a>
     </li>
     <li>
       <a href="https://www.instagram.com/dgmaia" target="_blank"><span>Instagram</span></a>
@@ -62,7 +74,7 @@
 </nav>
 
 
-      <article>
+      <article class="article">
         <header>
           <h2>Precise Pursuit Curve</h2>
           <p class="date">May  4</p>
@@ -91,5 +103,8 @@ to put some ideas together.</p>
       </article>
 
     </div>
+    <script>
+      document.querySelector('.article').scrollIntoView({ behavior: 'smooth' });
+    </script>
   </body>
 </html>
