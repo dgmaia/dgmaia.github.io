@@ -5,10 +5,22 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-03-29T18:36:00+13:00</updated>
+  <updated>2017-04-02T12:57:00+12:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>A day in Samoa</title>
+    <link rel="alternate" href="http://blog.url.com/2017/04/02/samoa.html"/>
+    <id>http://blog.url.com/2017/04/02/samoa.html</id>
+    <published>2017-04-02T12:57:00+12:00</published>
+    <updated>2017-04-02T12:59:51+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://c2.staticflickr.com/4/3928/32970304683_b0cf627a59_k.jpg" title="Samoa" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Laser Kiwi</title>
     <link rel="alternate" href="http://blog.url.com/2017/03/29/laser.html"/>
@@ -174,35 +186,6 @@ SVG animations are cool and I should play more with it.&lt;/p&gt;
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;&lt;img src="https://c1.staticflickr.com/8/7479/30092878632_711078c2b4_k.jpg" title="Pelourinho - Bahia" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Precise Pursuit Curve</title>
-    <link rel="alternate" href="http://blog.url.com/2016/05/04/pursuit.html"/>
-    <id>http://blog.url.com/2016/05/04/pursuit.html</id>
-    <published>2016-05-04T19:21:00+12:00</published>
-    <updated>2016-10-09T21:17:22+13:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="/2016/05/04/pursuit.html"&gt;
-  &lt;img title="Javascript Pursuit Pattern" src="/images/pursuit-pattern.png" /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I doodle a lot at work, It helps me think about stuff I'm working on.&lt;br /&gt; My way to have a wee break, not directly working on the problem but trying
-to put some ideas together.&lt;/p&gt;
-
-&lt;p&gt;(READMORE)&lt;/p&gt;
-
-&lt;p&gt;And after I saw the video below I couldn't stop doing the pattern.&lt;/p&gt;
-
-&lt;div class="iframe"&gt;
-  &lt;iframe src="https://www.youtube.com/embed/vln7rc5WYWM" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Not having good drawing skills and being perfectionist is not a nice combination.&lt;br /&gt;So I decided to draw it with Javascript.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="../../../pursuit-curve"&gt;Have a look&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
