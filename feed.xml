@@ -5,16 +5,28 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-04-06T10:36:00+12:00</updated>
+  <updated>2017-08-07T12:57:00+12:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Uluwatu Sunset</title>
+    <link rel="alternate" href="http://blog.url.com/2017/08/07/uluwatu.html"/>
+    <id>http://blog.url.com/2017/08/07/uluwatu.html</id>
+    <published>2017-08-07T12:57:00+12:00</published>
+    <updated>2017-08-07T19:18:41+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://farm5.staticflickr.com/4339/36023035320_e55116d073_o.jpg" title="Uluwatu" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Freaky Dot Patterns</title>
     <link rel="alternate" href="http://blog.url.com/2017/04/05/patterns.html"/>
     <id>http://blog.url.com/2017/04/05/patterns.html</id>
     <published>2017-04-06T10:36:00+12:00</published>
-    <updated>2017-04-07T08:37:07+12:00</updated>
+    <updated>2017-04-07T21:23:11+12:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -70,18 +82,18 @@ In the end, press &lt;strong&gt;play&lt;/strong&gt; to see the animation.&lt;/p&
 
 &lt;div class="parameters"&gt;
     &lt;div class=""&gt;
-      &lt;label&gt;Rotate:&lt;/label&gt;
-      &lt;input id="range" type="number" min="0" max="180" value="00" step="0.5" class="values" /&gt;
+      &lt;label&gt;Rotate (deg):&lt;/label&gt;
+      &lt;input id="range" type="number" min="0" max="180" value="90" step="0.5" class="values" /&gt;
     &lt;/div&gt;
 
     &lt;div class=""&gt;
-      &lt;label&gt;Size&lt;/label&gt;
+      &lt;label&gt;Size:&lt;/label&gt;
       &lt;input id="size-value" type="number" min="-10" max="10" value="1" step="0.01" class="values" /&gt;
     &lt;/div&gt;
 
     &lt;div class=""&gt;
-      &lt;label&gt;Duration&lt;/label&gt;
-      &lt;input id="time-value" type="number" min="1" max="60" value="10" step="1" class="values" /&gt;
+      &lt;label&gt;Duration (s):&lt;/label&gt;
+      &lt;input id="time-value" type="number" min="1" max="60" value="20" step="1" class="values" /&gt;
     &lt;/div&gt;
 
     &lt;div class=""&gt;
@@ -302,10 +314,8 @@ In the end, press &lt;strong&gt;play&lt;/strong&gt; to see the animation.&lt;/p&
       $("#draw").on( "click", function() {
         $(".canvas-area").height($(".freaky-patterns").width()/1.5);
         draw();
-        rotateValue = $('#range').val("0");
-        xValue = $('#x-value').val("0");
-        yValue = $('#y-value').val("0");
-        scale = $('#size-value').val("1");
+        // rotateValue = $('#range').val("0");
+        // scale = $('#size-value').val("1");
         result = "";
         $("#canvas2").css({
           'transform' : result
@@ -436,83 +446,6 @@ It's website is not that bad, it does the job, but to be honest, the mobile app 
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;&lt;img src="https://c7.staticflickr.com/6/5733/30599636270_401bc8323c_k.jpg" title="Pencarrow Head Lighthouse - New Zealand" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SVG Animations</title>
-    <link rel="alternate" href="http://blog.url.com/2016/10/28/svg.html"/>
-    <id>http://blog.url.com/2016/10/28/svg.html</id>
-    <published>2016-10-28T22:09:00+13:00</published>
-    <updated>2016-10-29T21:08:31+13:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="/2016/10/28/svg.html"&gt;
-  &lt;img title="Javascript Pursuit Pattern" src="/images/svgs.png" /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is more a remind to myself.
-SVG animations are cool and I should play more with it.&lt;/p&gt;
-
-&lt;p&gt;(READMORE)&lt;/p&gt;
-
-&lt;p&gt;&lt;a class="play" href="javascript:void(0);"&gt;Play&lt;/a&gt;&lt;/p&gt;
-
-&lt;svg class="svg-animated" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1024 1024" xml:space="preserve"&gt;
-
-	&lt;path class="ten-corners" d="M512,87.7l249.4,81l154.1,212.2l0,262.3L761.4,855.3l-249.4,81l-249.4-81L108.4,643.1l0-262.3l154.1-212.2L512,87.7M512,82.4l-252.5,82L103.4,379.3l0,265.5l156.1,214.8l252.5,82l252.5-82l156.1-214.8l0-265.5L764.5,164.5L512,82.4L512,82.4z" /&gt;
-
-	&lt;path class="square-1" d="M829.6,194.4v635.1H194.4V194.4H829.6 M834.6,189.4H189.4v645.1h645.1V189.4L834.6,189.4z" /&gt;
-
-	&lt;path class="bigger-square" d="M512,33.9L990.1,512L512,990.1L33.9,512L512,33.9 M512,26.9L26.9,512L512,997.1L997.1,512L512,26.9L512,26.9z" /&gt;
-
-	&lt;path class="circle-1" d="M512,140.8c50.1,0,98.7,9.8,144.5,29.2c44.2,18.7,83.9,45.5,118,79.6c34.1,34.1,60.9,73.8,79.6,118
-	c19.4,45.8,29.2,94.4,29.2,144.5s-9.8,98.7-29.2,144.5c-18.7,44.2-45.5,83.9-79.6,118c-34.1,34.1-73.8,60.9-118,79.6
-	c-45.8,19.4-94.4,29.2-144.5,29.2s-98.7-9.8-144.5-29.2c-44.2-18.7-83.9-45.5-118-79.6c-34.1-34.1-60.9-73.8-79.6-118
-	c-19.4-45.8-29.2-94.4-29.2-144.5s9.8-98.7,29.2-144.5c18.7-44.2,45.5-83.9,79.6-118c34.1-34.1,73.8-60.9,118-79.6
-	C413.3,150.6,461.9,140.8,512,140.8 M512,135.8c-207.8,0-376.2,168.4-376.2,376.2S304.2,888.2,512,888.2S888.2,719.8,888.2,512
-	S719.8,135.8,512,135.8L512,135.8z" /&gt;
-
-  &lt;g class="circles"&gt;
-  	&lt;path d="M512,290.4c36.8,0,71.4,14.3,97.5,40.4c26,26,40.4,60.7,40.4,97.5s-14.3,71.4-40.4,97.5c-26,26-60.7,40.4-97.5,40.4
-  	s-71.4-14.3-97.5-40.4c-26-26-40.4-60.7-40.4-97.5s14.3-71.4,40.4-97.5C440.6,304.8,475.2,290.4,512,290.4 M512,285.4
-  	c-78.9,0-142.9,64-142.9,142.9s64,142.9,142.9,142.9s142.9-64,142.9-142.9S590.9,285.4,512,285.4L512,285.4z" /&gt;
-
-  	&lt;path d="M428.3,374.1c36.8,0,71.4,14.3,97.5,40.4c26,26,40.4,60.7,40.4,97.5s-14.3,71.4-40.4,97.5c-26,26-60.7,40.4-97.5,40.4
-  	s-71.4-14.3-97.5-40.4c-26-26-40.4-60.7-40.4-97.5s14.3-71.4,40.4-97.5C356.8,388.5,391.5,374.1,428.3,374.1 M428.3,369.1
-  	c-78.9,0-142.9,64-142.9,142.9s64,142.9,142.9,142.9s142.9-64,142.9-142.9S507.2,369.1,428.3,369.1L428.3,369.1z" /&gt;
-
-  	&lt;path d="M512,457.9c36.8,0,71.4,14.3,97.5,40.4c26,26,40.4,60.7,40.4,97.5s-14.3,71.4-40.4,97.5c-26,26-60.7,40.4-97.5,40.4
-  	s-71.4-14.3-97.5-40.4c-26-26-40.4-60.7-40.4-97.5s14.3-71.4,40.4-97.5C440.6,472.2,475.2,457.9,512,457.9 M512,452.9
-  	c-78.9,0-142.9,64-142.9,142.9s64,142.9,142.9,142.9s142.9-64,142.9-142.9S590.9,452.9,512,452.9L512,452.9z" /&gt;
-
-  	&lt;path d="M595.7,374.1c36.8,0,71.4,14.3,97.5,40.4c26,26,40.4,60.7,40.4,97.5s-14.3,71.4-40.4,97.5c-26,26-60.7,40.4-97.5,40.4
-  	s-71.4-14.3-97.5-40.4c-26-26-40.4-60.7-40.4-97.5s14.3-71.4,40.4-97.5C524.3,388.5,558.9,374.1,595.7,374.1 M595.7,369.1
-  	c-78.9,0-142.9,64-142.9,142.9s64,142.9,142.9,142.9s142.9-64,142.9-142.9S674.6,369.1,595.7,369.1L595.7,369.1z" /&gt;
-  &lt;/g&gt;
-
-	&lt;path class="six-corners-1" d="M512,210.2l261.4,150.9v301.8L512,813.8L250.6,662.9V361.1L512,210.2 M512,204.4L245.6,358.2v307.6L512,819.6l266.4-153.8V358.2L512,204.4L512,204.4z" /&gt;
-
-	&lt;path class="six-corners-2" d="M662.9,250.6L813.8,512L662.9,773.4H361.1L210.2,512l150.9-261.4H662.9 M665.8,245.6H358.2L204.4,512l153.8,266.4h307.6L819.6,512L665.8,245.6L665.8,245.6z" /&gt;
-
-	&lt;path class="square-2" d="M597.5,426.5v171h-171v-171H597.5 M602.5,421.5h-181v181h181V421.5L602.5,421.5z" /&gt;
-
-	&lt;path class="square-3" d="M512,477.7l34.3,34.3L512,546.3L477.7,512L512,477.7 M512,470.7L470.7,512l41.3,41.3l41.3-41.3L512,470.7L512,470.7z" /&gt;
-
-&lt;/svg&gt;
-
-&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"&gt;&lt;/script&gt;
-
-&lt;script&gt;
-  $('.play').click(function() {
-      $('.svg-animated').addClass('svg-animated-on');
-  });
-
-  $('.svg-animated').click(function() {
-      $(this).addClass('svg-animated-on');
-  });
-&lt;/script&gt;
-
 </content>
   </entry>
 </feed>
