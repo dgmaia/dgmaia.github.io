@@ -138,7 +138,7 @@ a.link {
 
 .intro {
   margin-bottom: 40px;
-  display: none; }
+  }
   .intro .container {
     display: -webkit-box;
     display: -ms-flexbox;
