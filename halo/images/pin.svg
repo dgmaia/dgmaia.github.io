@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="54px" viewBox="0 0 35 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="halo-home-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-942.000000, -2718.000000)">
+        <g id="section-5" transform="translate(0.000000, 2346.000000)">
+            <g id="pin" transform="translate(942.000000, 372.000000)">
+                <ellipse id="Oval-3" fill="#0A4340" cx="17.5" cy="51" rx="11.5" ry="3"></ellipse>
+                <path d="M17.5,0 C7.85,0 0,7.85 0,17.5 C0,30.625 17.5,50 17.5,50 C17.5,50 35,30.625 35,17.5 C35,7.85 27.15,0 17.5,0 Z" id="Shape" fill="#F4A933" fill-rule="nonzero"></path>
+                <circle id="Oval-3" fill="#FFFFFF" cx="17.5" cy="17.5" r="7.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
