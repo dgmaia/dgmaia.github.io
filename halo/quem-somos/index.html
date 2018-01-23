@@ -7,15 +7,15 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Quem Somos</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700" rel="stylesheet">
-    <link href="/halo/stylesheets/site.css" rel="stylesheet" />
-    <script src="/halo/javascripts/site.js"></script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
   </head>
   <body class="content">
     <div class="top-bg">
       <section>
   <div class="container">
     <h1>
-<a href="/halo">        <svg viewBox="0 0 416 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<a href="/">        <svg viewBox="0 0 416 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>halo-logo</title>
     <defs></defs>
     <g id="halo-home-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-242.000000, -107.000000)">
@@ -45,13 +45,13 @@
 
 </a>    </h1>
 
-<nav>
-  <a href="/halo/" class="home">Home</a>
-  <a href="/halo/quem-somos">Quem Somos</a>
-  <a href="/halo/geracao-propria">Geração Própria</a>
-  <a href="/halo/nossos-projetos">Nossos Projetos</a>
-  <a href="/halo/solicitar-orcamento">Solicitar Orçamento</a>
-</nav>
+    <nav>
+      <a href="/" class="home">Home</a>
+      <a href="/quem-somos#conteudo">Quem Somos</a>
+      <a href="/geracao-propria#conteudo">Geração Própria</a>
+      <a href="/nossos-projetos#conteudo">Nossos Projetos</a>
+      <a href="/solicitar-orcamento#conteudo">Solicitar Orçamento</a>
+    </nav>
 
     <div class="contact-bar">
       <div>
@@ -82,7 +82,7 @@
 
           <a href="tel:(85) 3244 2356">(85) 3244 2356</a>
           <span>●</span>
-          <a href="tel:(85) 988 081 846">(85) 988 081 846</a>
+          <a href="tel:(85) 988 081 846">(85) 9 8808 1846</a>
         </p>
       </div>
 
@@ -120,23 +120,32 @@
 
     </div>
     <main>
-      <h2>
+      <h2 id="conteudo">
   Quem Somos
 </h2>
 
 <p>
-  A luz do sol gera um fenômeno bastante comum, o halo solar. De uma beleza simples, mas grandiosa, os halos mostram o quanto a energia que vem do sol pode ser inspiradora. Uma inspiração que em 2016 foi responsável pelo nascimento de uma empresa comprometida em ser destaque no mercado fotovoltaico cearense. A inovação, aliada à experiência e seriedade mostraram que o mercado realmente precisava de sangue novo, ou melhor: uma nova postura. E é assim que a Halo Energia Solar vem trabalhando,
+  A luz do sol gera um fenômeno bastante comum, o halo solar. De uma beleza simples, os halos mostram o quanto a energia que vem do sol pode ser inspiradora. Uma inspiração que em 2016 foi responsável pelo nascimento de uma empresa comprometida em ser destaque no mercado fotovoltaico cearense. A inovação, aliada à experiência e seriedade mostraram que o mercado realmente precisava de sangue novo, ou melhor: uma nova postura. E é assim que a Halo Energia Solar vem trabalhando,
 apresentando rápido crescimento em um mercado bastante concorrido, destacando-se pelo alto nível do seu atendimento, da instalação ao acompanhamento e, o mais importante: da confiança ao resultado.
 </p>
 
+<p><img src="/images/quem-somos.jpg" class="image" alt="Quem-somos" /></p>
+
 <h3>
-  A luz solar cobre todo o ceará. nosso trabalho também.
+  A luz solar cobre todo o Ceará. Nosso trabalho também.
 </h3>
 
 <p>
   A Halo atua em formato dinâmico, criando e coordenando equipes com as expertises adequadas para cada tipo de projeto, em qualquer lugar do estado. Todas as etapas são previamente estipuladas, mantendo um cronograma eficiente e gerenciado de perto por engenheiros especializados. O que gera redução de custos ou desperdícios, além de acelerar a entrega.
 </p>
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/javascripts/lightbox.min.js"></script>
+      <script>
+        $('html,body').animate({
+          scrollTop: $(window.location.hash).offset().top
+        }, 1500);
+      </script>
     </main>
     <footer>
   <a class="display-none" href="/">Voltar ao topo</a>

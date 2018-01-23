@@ -7,15 +7,15 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Solicitar Orçamento</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700" rel="stylesheet">
-    <link href="/halo/stylesheets/site.css" rel="stylesheet" />
-    <script src="/halo/javascripts/site.js"></script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
   </head>
   <body class="content">
     <div class="top-bg">
       <section>
   <div class="container">
     <h1>
-<a href="/halo/">        <svg viewBox="0 0 416 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<a href="/">        <svg viewBox="0 0 416 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>halo-logo</title>
     <defs></defs>
     <g id="halo-home-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-242.000000, -107.000000)">
@@ -46,11 +46,11 @@
 </a>    </h1>
 
     <nav>
-      <a href="/halo/" class="home">Home</a>
-      <a href="/halo/quem-somos">Quem Somos</a>
-      <a href="/halo/geracao-propria">Geração Própria</a>
-      <a href="/halo/nossos-projetos">Nossos Projetos</a>
-      <a href="/halo/solicitar-orcamento">Solicitar Orçamento</a>
+      <a href="/" class="home">Home</a>
+      <a href="/quem-somos#conteudo">Quem Somos</a>
+      <a href="/geracao-propria#conteudo">Geração Própria</a>
+      <a href="/nossos-projetos#conteudo">Nossos Projetos</a>
+      <a href="/solicitar-orcamento#conteudo">Solicitar Orçamento</a>
     </nav>
 
     <div class="contact-bar">
@@ -82,7 +82,7 @@
 
           <a href="tel:(85) 3244 2356">(85) 3244 2356</a>
           <span>●</span>
-          <a href="tel:(85) 988 081 846">(85) 988 081 846</a>
+          <a href="tel:(85) 988 081 846">(85) 9 8808 1846</a>
         </p>
       </div>
 
@@ -120,14 +120,304 @@
 
     </div>
     <main>
-      <h2>
+      <h2 id="conteudo">
   Solicitar Orçamento
 </h2>
 
-<p>
-  [Esperando texto]
-</p>
+<div class="solicitar-orcamento">
 
+  <p>
+    Solicite um orçamento gratuitamente ou agende uma visita em nossa empresa.
+  </p>
+
+  <h3>
+    <strong>Email: </strong>
+    <a href="mailto:atendimento@halosolar.com.br">atendimento@halosolar.com.br</a>
+  </h3>
+
+  <p>
+    <strong>Telefones: </strong>
+    <a href="tel:(85) 3244 2356">(85) 3244 2356</a>
+    <span>●</span>
+    <a href="tel:(85) 988 081 846">(85) 9 8808 1846</a>
+  </p>
+
+  <section class="map">
+  <div id="map"></div>
+<script>
+  function initMap() {
+    // var vieira = {lat: -3.748292, lng: -38.504871};
+    var vieira = new google.maps.LatLng(-3.748484, -38.504895);
+    var vieira2 = new google.maps.LatLng(-3.748484, -38.508895);
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      maxZoom: 20,
+      minZoom: 11,
+      scrollwheel: false,
+      closeBoxURL: "",
+      // disableDefaultUI: 'yes',
+      center: vieira2,
+      styles: [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e9e9e9"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 29
+            },
+            {
+                "weight": 0.2
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 18
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dedede"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "saturation": 36
+            },
+            {
+                "color": "#333333"
+            },
+            {
+                "lightness": 40
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            },
+            {
+                "lightness": 19
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 17
+            },
+            {
+                "weight": 1.2
+            }
+        ]
+    }
+      ]
+    });
+
+    // var icon = {
+    //     halo: {
+    //       '/images/pin.png'
+    //     }
+    // };
+    //
+    // var feature = {
+    //     position: new google.maps.LatLng(-3.748484, -38.504895);
+    //     type: 'halo'
+    //   };
+
+    // var marker = new google.maps.Marker({
+    //   position: new google.maps.LatLng(-3.748484, -38.504895);
+    //   icon: '/images/pin.svg'
+    //   map: map
+    // });
+
+    google.maps.event.addDomListener(window, 'resize', function() {
+      map.setCenter(vieira2);
+    });
+
+    var TILE_SIZE = 256;
+
+    // var coordInfoWindow = new google.maps.InfoWindow();
+    //   coordInfoWindow.setContent(createInfoWindowContent(vieira, map.getZoom()));
+    //   coordInfoWindow.setPosition(vieira);
+    //   coordInfoWindow.open(map);
+
+    var marker = new google.maps.Marker({
+      position: vieira,
+      icon: '/images/pin.svg',
+      map: map
+    });
+
+    function createInfoWindowContent(latLng, zoom) {
+      var scale = 1 << zoom;
+
+      var worldCoordinate = project(latLng);
+
+      var pixelCoordinate = new google.maps.Point(
+          Math.floor(worldCoordinate.x * scale),
+          Math.floor(worldCoordinate.y * scale));
+
+      var tileCoordinate = new google.maps.Point(
+          Math.floor(worldCoordinate.x * scale / TILE_SIZE),
+          Math.floor(worldCoordinate.y * scale / TILE_SIZE));
+
+      return [
+        '<h2>Halo Energia Solar</h2>',
+        '<p>Rua Francisco Holanda 625, sala 08. Dionísio Torres.</p>',
+        '<p>Telefone: <strong>(85) 3244 2356</strong></p>',
+        '<p>Celular: <strong>(85) 988 081 846</strong></p>',
+        '<p>Email: <strong>atendimento@halosolar.com.br</strong></p>'
+      ].join('');
+    }
+
+    function project(latLng) {
+      var siny = Math.sin(latLng.lat() * Math.PI / 180);
+
+      // Truncating to 0.9999 effectively limits latitude to 89.189. This is
+      // about a third of a tile past the edge of the world tile.
+      siny = Math.min(Math.max(siny, -0.9999), 0.9999);
+
+      return new google.maps.Point(
+          TILE_SIZE * (0.5 + latLng.lng() / 360),
+          TILE_SIZE * (0.5 - Math.log((1 + siny) / (1 - siny)) / (4 * Math.PI)));
+    }
+  }
+</script>
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE4zXgb2CTS6DWnJUlHp-RMU68HaVdgsI&amp;callback=initMap"></script>
+
+  </section>
+
+</div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/javascripts/lightbox.min.js"></script>
+      <script>
+        $('html,body').animate({
+          scrollTop: $(window.location.hash).offset().top
+        }, 1500);
+      </script>
     </main>
     <footer>
   <a class="display-none" href="/">Voltar ao topo</a>
