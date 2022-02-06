@@ -78,6 +78,10 @@ h1, h2, p, a, span, li, strong {
         font-weight: 700;
     }
 
+    .navigation {
+        margin-bottom: 24px;
+    }
+
     .navigation h2 {
         display: none;
     }
@@ -106,6 +110,38 @@ h1, h2, p, a, span, li, strong {
         padding: 8px;
         transition: border-bottom ease 0.45s;
     }
+
+    .photo {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 24px;
+    }
+
+    .photo .container {
+        width: 100%;
+        max-width: 966px;
+        height: 420px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #090909;
+        margin: 0 auto 16px auto;
+    }
+
+    .photo img {
+        width: 100%;
+        max-width: 966px;
+        height: 420px;
+        object-fit: cover;
+    }
+
+    .photo p {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        opacity: 75%;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 680px) {
@@ -128,6 +164,10 @@ h1, h2, p, a, span, li, strong {
     .navigation li a {
         font-size: 18px;
     }
+
+    .photo p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 840px) {
@@ -138,6 +178,16 @@ h1, h2, p, a, span, li, strong {
 
     .navigation li {
         display: inline-block;
+    }
+
+    .photo .container {
+        margin: 0 auto px auto;
+        height: auto;
+    }
+
+    .photo img {
+        height: auto;
+        display: block;
     }
 }
 
@@ -165,8 +215,7 @@ h1, h2, p, a, span, li, strong {
     }
     
     .navigation {
-        margin-bottom: 64px;
-    
+        margin-bottom: 48px;
     }
     
     .navigation li a {
