@@ -37,6 +37,19 @@
         ga('create', 'UA-85374296-1', 'auto');
         ga('send', 'pageview');
     </script>
+
+    <script>
+        window.transitionToPage = function(href) {
+            document.querySelector('body').classList.remove("loaded");
+            setTimeout(function() { 
+                window.location.href = href
+            }, 5000)
+        }
+
+        document.addEventListener('DOMContentLoaded', function(event) {
+            document.querySelector('body').classList.add("loaded");
+        })
+    </script>
 </head>
 <body>
 
@@ -65,6 +78,7 @@
                 <li><a href="https://nz.linkedin.com/in/dmaia" target="_blank">LinkedIn</a></li>
                 <li><a href="https://www.instagram.com/dgmaia/" target="_blank">Instagram</a></li>
                 <!-- <li><a href="photos.html">Photos</a></li> -->
+                <li><span onclick="transitionToPage('photos.html')">Photos</span></li>
                 <li><a href="https://github.com/dgmaia/" target="_blank">Github</a></li>
             </ol>
         </nav>
