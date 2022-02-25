@@ -75,6 +75,19 @@
         window.addEventListener("orientationChange", lazyload);
         });
     </script>
+
+    <script>
+        window.transitionToPage = function(href) {
+            document.querySelector('body').classList.remove("loaded");
+            setTimeout(function() { 
+                window.location.href = href
+            }, 1000)
+        }
+
+        document.addEventListener('DOMContentLoaded', function(event) {
+            document.querySelector('body').classList.add("loaded");
+        })
+    </script>
 </head>
 <body class="photos">
 
