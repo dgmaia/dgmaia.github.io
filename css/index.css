@@ -117,7 +117,7 @@ body.loaded {
         line-height: 40px;
         display: block;
         padding: 8px;
-        transition: border-bottom ease 0.45s;
+        transition: border-bottom ease 0.3s;
         text-transform: uppercase;
     }
 
@@ -174,7 +174,7 @@ body.loaded {
 
     .navigation li a, .navigation li span {
         font-size: 16px;
-        letter-spacing: 0;
+        letter-spacing: 0.5px;
     }
 
     .photo p {
@@ -193,7 +193,7 @@ body.loaded {
     }
 
     .photo .container {
-        margin: 0 auto px auto;
+        margin: 0 auto 40px auto;
         height: auto;
         border-radius: 4px;
     }
