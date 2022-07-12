@@ -118,6 +118,7 @@ body.loaded {
         display: block;
         padding: 8px;
         transition: border-bottom ease 0.45s;
+        text-transform: uppercase;
     }
 
     .photo {
@@ -131,7 +132,7 @@ body.loaded {
         width: 100%;
         max-width: 966px;
         height: 420px;
-        border-radius: 4px;
+        border-radius: 2px;
         overflow: hidden;
         background-color: #090909;
         margin: 0 auto 16px auto;
@@ -172,7 +173,7 @@ body.loaded {
     }
 
     .navigation li a, .navigation li span {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .photo p {
@@ -193,7 +194,7 @@ body.loaded {
     .photo .container {
         margin: 0 auto px auto;
         height: auto;
-        border-radius: 8px;
+        border-radius: 4px;
     }
 
     .photo img {
