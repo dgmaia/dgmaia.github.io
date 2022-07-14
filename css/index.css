@@ -86,40 +86,6 @@ body.loaded {
         font-weight: 700;
     }
 
-    .navigation {
-        margin-bottom: 24px;
-    }
-
-    .navigation h2 {
-        display: none;
-    }
-
-    .navigation nav ol {
-        width: 100%;
-        column-count: 1;
-    }
-
-    .navigation li {
-        list-style: none;
-        display: block;
-        margin: 0 16px;
-        text-align: center;
-    }
-    
-    .navigation li a, .navigation li span {
-        font-weight: 700;
-        text-decoration: none;
-        border-bottom: 1px solid #fff;
-        height: 40px;
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 40px;
-        display: block;
-        padding: 8px;
-        transition: border-bottom ease 0.3s;
-        text-transform: uppercase;
-    }
-
     .photo {
         width: 100%;
         height: auto;
@@ -171,11 +137,6 @@ body.loaded {
         margin-bottom: 4px;
     }
 
-    .navigation li a, .navigation li span {
-        font-size: 16px;
-        letter-spacing: 0.5px;
-    }
-
     .photo p {
         font-size: 12px;
     }
@@ -224,20 +185,5 @@ body.loaded {
         font-size: 22px;
         line-height: 34px;
         margin: 0;
-    }
-    
-    .navigation {
-        margin-bottom: 48px;
-    }
-    
-    .navigation li a , .navigation li span {
-        height: auto;
-        line-height: 34px;
-        padding: 4px;
-    }
-
-    .navigation li a:hover, .navigation li span:hover {
-        border-bottom: 1px solid #161616;
-        cursor: pointer;
     }
 }
