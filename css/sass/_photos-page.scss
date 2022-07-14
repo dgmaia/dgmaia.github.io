@@ -1,0 +1,61 @@
+body.photos {
+
+    .logo .colour-bit {
+        animation: none;
+        fill: $logo-blue;
+    }
+
+    h1 {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+
+    .intro {
+        margin-bottom: 80px;
+
+        p {
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .photo {
+        margin-bottom: 80px;
+
+        .container {
+            width: 966px;
+            height: 322px;
+            background-color: #F3F3F3;
+        }
+
+        img {
+            transition: all ease 2.5s;
+            margin-top: 0;
+            display: block;
+            opacity: 1;
+            width: 966px;
+            height: 322px;
+        }
+
+        img.lazy {
+            opacity: 0;
+        }
+
+        p {
+            transition: all ease 1.5s;
+            opacity: 1;
+            text-align: center;
+            max-width: 768px;
+            margin: 0 auto;
+        }
+
+        &.lazy p {
+            opacity: 0;
+        }
+    }
+}
+
