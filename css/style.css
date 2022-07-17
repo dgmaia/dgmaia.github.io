@@ -10,7 +10,6 @@ h1, h2, p, a, span, li, strong {
 }
 
 body {
-  opacity: 0;
   transition: opacity ease-in 0.25s;
 }
 body.loaded {
