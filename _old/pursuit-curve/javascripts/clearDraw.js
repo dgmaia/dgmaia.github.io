@@ -1,1 +1,0 @@
-var clearDraw=function(a){$.each(a,function(){"distance"!=$(this).attr("id")&&$(this).val("")})};
